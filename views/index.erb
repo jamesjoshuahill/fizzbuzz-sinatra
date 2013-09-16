@@ -1,2 +1,16 @@
 <h1>Welcome to FizzBuzz!</h1>
-<%= fizzbuzz(50).join(', ') %>
+<ol>
+<% fizzbuzz(@limit).each do |number| %>
+  <% case number
+  when 'FizzBuzz'
+    @color = 'red'
+  when 'Fizz'
+    @color = 'blue'
+  when 'Buzz'
+    @color = 'green'
+  else
+    @color = 'black'
+  end %>
+  <li style="color: <%= @color %>"><%= number %></li>
+<% end %>
+</ol>
