@@ -1,16 +1,10 @@
-<h1>Welcome to FizzBuzz!</h1>
-<ol>
-<% fizzbuzz(@limit).each do |number| %>
-  <% case number
-  when 'FizzBuzz'
-    @color = 'red'
-  when 'Fizz'
-    @color = 'blue'
-  when 'Buzz'
-    @color = 'green'
-  else
-    @color = 'black'
-  end %>
-  <li style="color: <%= @color %>"><%= number %></li>
-<% end %>
-</ol>
+<form action="/upto">
+  Pick a number to fizz up to:
+  <input type="text" name="limit">
+  <input type="submit" value="Fizz lots of numbers!">
+</form>
+<form action="/fizz">
+  Pick a number to fizz:
+  <input type="text" name="number">
+  <input type="submit" value="Fizzit!">
+</form>
