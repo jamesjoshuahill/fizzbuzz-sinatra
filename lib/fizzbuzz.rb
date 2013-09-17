@@ -8,3 +8,17 @@ def fizz(number)
   return 'Fizz' if number % 3 == 0
   "#{number}"
 end
+
+def fizz_color(fizzed_number)
+  case fizzed_number
+  when 'FizzBuzz'
+    'red'
+  when 'Fizz'
+    'blue'
+  when 'Buzz'
+    'green'
+  else
+    'black'
+  end
+end
+

@@ -1,2 +1,3 @@
-<%= erb :fizz_a_number_form %>
-<p>FizzBuzz for <%= @number %> is '<%= fizz(@number) %>'</p>
+<%= erb :index %>
+<% @fizzed_number = fizz(@number) %>
+<p>FizzBuzz for <%= @number %> is <span style="color: <%= fizz_color(@fizzed_number) %>;">'<%= @fizzed_number %>'</span></p>

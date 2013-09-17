@@ -1,0 +1,30 @@
+body {
+  font-family: Georgia, 'Times New Roman', serif;
+  font-size: 1.5em;
+}
+ol {
+  padding-left: 3em;
+  width: 5em;
+  text-align: right;
+}
+li {
+  font-family: Helvetica, Verdana, sans-serif;
+}
+input.button {
+  font-family: Georgia, 'Times New Roman', serif;
+  font-size: 0.75em;
+  padding: 3px 10px;
+  background-color: rgb(133, 184, 242);
+  color: white;
+  border: none;
+  border-left: 5px solid green;
+}
+input.input_box {
+  font-family: Georgia. 'Times New Roman', serif;
+  font size: 0.5em;
+  padding: 5px 5px;
+  background-color: #A8A423;
+  color: black;
+  border: none;
+  border-right: 3px solid #A83C23;
+}

@@ -1,4 +1,4 @@
-<%= erb :uptolimit_form %>
+<%= erb :index %>
 <p>Fizzing up to...
 <% if @limit > 50
   @limit = 15 %>
@@ -8,17 +8,7 @@
 <% end %>
 </p>
 <ol>
-<% fizzbuzz(@limit).each do |number|
-  case number
-  when 'FizzBuzz'
-    @color = 'red'
-  when 'Fizz'
-    @color = 'blue'
-  when 'Buzz'
-    @color = 'green'
-  else
-    @color = 'black'
-  end %>
-  <li style="color: <%= @color %>;"><%= number %></li>
+<% fizzbuzz(@limit).each do |number| %>
+  <li style="color: <%= fizz_color(number) %>;"><%= number %></li>
 <% end %>
 </ol>
