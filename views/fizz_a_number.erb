@@ -1,6 +1,2 @@
-<form action="/fizz">
-  Pick a number to fizz:
-  <input type="text" name="number">
-  <input type="submit" value="Fizzit!">
-</form>
+<%= erb :fizz_a_number_form %>
 <p>FizzBuzz for <%= @number %> is '<%= fizz(@number) %>'</p>
