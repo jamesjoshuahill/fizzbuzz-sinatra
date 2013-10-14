@@ -12,4 +12,5 @@ I paried with [Kiy Tang](https://github.com/kiytang) and together we wrote a
 simple Sinatra web service that displays FizzBuzz up to a given number.
 
 We write simple views in ERB and styled them with CSS. Our design choices could
-be prettier!
+be improved. This code was written without tests, which should be added before
+deployment.
