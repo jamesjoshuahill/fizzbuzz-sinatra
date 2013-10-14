@@ -1,7 +1,7 @@
 FizzBuzz in Sinatra
 ===================
 
-### Makers Academy Week 4 pairing task
+### Makers Academy Week 5 pairing task
 
 This task was set by Enrique Comba Riepenhausen
 [@ecomba](http://twitter.com/ecomba) whilst learning to code at
