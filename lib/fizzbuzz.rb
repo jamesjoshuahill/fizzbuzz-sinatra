@@ -21,4 +21,3 @@ def fizz_color(fizzed_number)
     'black'
   end
 end
-
